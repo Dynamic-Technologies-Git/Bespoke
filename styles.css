@@ -98,9 +98,9 @@
 }
 .team__card p{
     position: absolute;
-    bottom: 30px;
+    margin-bottom: 30px;
     color: var(--black);
-    left: 25px;
+    margin-left: 25px;
     font-size: 3rem;
 }
 .team__img{
