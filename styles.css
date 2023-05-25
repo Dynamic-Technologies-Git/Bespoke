@@ -82,6 +82,11 @@
     padding: 7rem;
 }
 /*About us section*/
+.team__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto, 350px);
+}
 .team__card{
     margin: 1rem;
     border-radius: 10px;
