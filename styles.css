@@ -81,6 +81,7 @@
     background-repeat: no-repeat;
     padding: 7rem;
 }
+/*About us section*/
 .team{
     padding: 8rem calc((100vw - 1100px)/2);
 }
