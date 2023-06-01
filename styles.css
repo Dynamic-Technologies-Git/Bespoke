@@ -111,12 +111,11 @@
     border-radius: 10px;
 }
 .team__Text{
-    margin-top: 2rem;
     grid-row: 2/3;
     grid-column: 2/3;
 }
 .team__Text p{
-     position: absolute;
+     bottom: 1.5rem;
      font-size: 1.5rem;
      font-style: normal;
 }
