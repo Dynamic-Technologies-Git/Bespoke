@@ -231,6 +231,7 @@ span{
 }
 /* footer section*/
 .footer{
+    margin-top: 2rem;
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
