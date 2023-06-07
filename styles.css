@@ -165,7 +165,7 @@
     height: 80vh;
     background-position: center;
     background-size: cover;
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 5rem calc((100vw - 1800px) / 2);
     color: var(--white);
     display: flex;
     justify-content: center;
@@ -231,7 +231,6 @@ span{
 }
 /* footer section*/
 .footer{
-    margin-top: 2rem;
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
