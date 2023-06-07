@@ -165,7 +165,7 @@
     height: 80vh;
     background-position: center;
     background-size: cover;
-    padding: 5rem calc((100vw - 1800px) / 2);
+    padding: 5rem 2rem;
     color: var(--white);
     display: flex;
     justify-content: center;
