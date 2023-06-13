@@ -14,10 +14,10 @@
 .navbar{
     background: var(--white);
     height: 60px;
-    padding: 0.5rem calc((100vw - 1800px) / 2);
+    padding: 0.5rem calc(100vw - 1800px);
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     position: relative;
     outline: var(--black);
     outline-width: 0.5rem;
