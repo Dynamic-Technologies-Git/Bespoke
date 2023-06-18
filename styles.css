@@ -106,7 +106,8 @@
     background-position: center;
     background-size: initial;
     background-repeat: no-repeat;
-    padding: 7rem;
+    height: 100vh;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
 }
 /*About us section*/
 .team__wrapper{
