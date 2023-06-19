@@ -165,10 +165,10 @@
 /* Contact page */
 .email{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3));
-    height: 100vh;
+    height: 101vh;
     background-position: center;
     background-size: cover;
-    padding: 6rem calc((100vw - 1800px) / 2);
+    padding: 6rem calc((100vw - 1600px) / 2);
     color: var(--white);
     display: flex;
     justify-content: center;
