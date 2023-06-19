@@ -164,16 +164,16 @@
 }
 /* Contact page */
 .email{
-    background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3));
+    background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
+    url('./images/DF2.png') no-repeat center;
     height: 100vh;
     background-position: center;
     background-size: cover;
-    padding: 6rem calc((100vw - 2000px) / 2);
+    padding: 5rem calc((100vw - 1300px) / 2);
     color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
 }
 .email__content{
     display: flex;
@@ -207,7 +207,7 @@ form{
 }
 span{
     color: var(--white);
-    margin-top: 12px;
+    margin-top: 10px;
     display: block;
 }
 @media screen and (max-width: 2000px){
