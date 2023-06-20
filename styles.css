@@ -146,10 +146,10 @@
 }
 .team__Text p{
      bottom: 1.5rem;
-     font-size: 2rem;
+     font-size: 1.5rem;
      font-style: normal;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 770px){
     .team__wrapper{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
