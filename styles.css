@@ -1,7 +1,7 @@
 :root{
     --black:#000000;
     --white:#fff;
-    --gold:rgb(0, 0, 80);
+    --gold:rgb(0, 0, 105);
 }
 *{
     box-sizing: border-box;
