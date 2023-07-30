@@ -66,7 +66,7 @@
 /* Hero section */
 .hero{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
-    url('./images/PosyLogo.mkv');
+    url('./images/PosyFinal.gif');
     height: 100vh;
     width: 100vw;
     background-position: center;
@@ -103,7 +103,7 @@
     font-size: 24px;
 }
 .Logo__img{
-    background: url('./images/Logo1.png');
+    background: url('./images/');
     background-position: center;
     background-size: initial;
     background-repeat: no-repeat;
