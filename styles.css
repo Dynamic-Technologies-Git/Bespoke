@@ -150,17 +150,6 @@
      font-style: normal;
 }
 @media screen and (max-width: 795px){
-    .team__wrapper{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-    .team__Text {
-        display: none;
-    }
-    .team__card {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
     .hero{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
     url('./images/PosyOwl.jpg');
@@ -173,6 +162,18 @@
     justify-content: flex-start;
     align-items: center;
 }
+@media screen and (max-width: 850px){
+    .team__wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .team__Text {
+        display: none;
+    }
+    .team__card {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
 }
 /* Contact page */
 .email{
