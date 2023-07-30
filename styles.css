@@ -161,6 +161,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    }
 }
 @media screen and (max-width: 850px){
     .team__wrapper{
@@ -178,7 +179,7 @@
     width: 100vw;
     height: 100vh;
     border-radius: 5px;
-}
+    }
 }
 /* Contact page */
 .email{
