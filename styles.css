@@ -149,7 +149,7 @@
      font-size: 1.5rem;
      font-style: normal;
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 800px){
     .team__wrapper{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -168,7 +168,7 @@
     width: 100vw;
     background-position: center;
     background-size: cover;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
+    padding: 0.5rem calc((100vw - 1800px) / 2);
     display: flex;
     justify-content: flex-start;
     align-items: center;
