@@ -114,7 +114,7 @@
 .team__wrapper{
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: repeat(auto, 350px);
 }
 .team__card{
