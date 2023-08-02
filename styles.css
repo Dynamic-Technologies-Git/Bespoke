@@ -174,9 +174,9 @@
     .team__card {
         grid-row: 2/3;
         grid-column: 1/2;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        margin: 0rem;
+        border-radius: 0px;
+        position: relative;
     }
     .team__img{
     width: 100vw;
