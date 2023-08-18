@@ -113,8 +113,7 @@
 }
 .services__Heading h1{
     padding: 1rem calc((100vw - 1800px) / 2);
-    margin-left: 1rem;
-    font-size: 72px;
+    font-size: 68px;
     font-style: normal;
 }
 .services__features{
