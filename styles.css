@@ -99,12 +99,6 @@
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
 }
-.services__heading h1{
-    padding: 1rem calc((100vw - 1800px) / 2);
-    margin-left: 1rem;
-    font-size: 72px;
-    font-style: normal;
-}
 .services__img{
     width: 90%;
     height: 90%;
@@ -118,8 +112,10 @@
     font-size: 1.2rem;
 }
 .services__heading{
-    margin-bottom: 2rem;
-    font-size: clamp(2rem, 6vw, 4rem);
+    padding: 1rem calc((100vw - 1800px) / 2);
+    margin-left: 1rem;
+    font-size: 72px;
+    font-style: normal;
 }
 .services__features{
     list-style: none;
