@@ -191,6 +191,7 @@
     width: 400px;
     height: 600px;
     border-radius: 5px;
+    margin-left: 2rem;
 }
 .team__Text{
     grid-row: 2/3;
