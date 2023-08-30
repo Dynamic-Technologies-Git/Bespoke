@@ -79,10 +79,8 @@
                     <input type="email" name="email" placeholder="Enter your email" required>
                     <input placeholder="Which lesson plan would you like to inquire about?" class="form-control" name="message" required>
                     <button class="button" onclick="audio.play();" type="submit">Send</button>
-                    <script type=text/javascript">
-                        const audio = new Audio();
-                        audio.src = "./who.mp3";
-                    </script>
+                    <audio autoplay src="who.mp3">
+                    </audio>
                </form>
             </div>
         </div>
