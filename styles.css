@@ -220,7 +220,7 @@
     }
     .team__img{
         width: 100vw;
-        height: calc(100vw * 0.20);
+        height: calc(100vw * 0.80);
         margin-left: 0rem;
     }
 }
