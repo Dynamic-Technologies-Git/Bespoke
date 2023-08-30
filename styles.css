@@ -203,7 +203,7 @@
      font-size: 1.5rem;
      font-style: normal;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .team__wrapper{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -219,9 +219,9 @@
         position: relative;
     }
     .team__img{
-    width: 100vw;
-    height: 80vh;
-    margin-left: 0rem;
+        width: 100vw;
+        height: 80vh;
+        margin-left: 0rem;
     }
 }
 /* Contact page */
