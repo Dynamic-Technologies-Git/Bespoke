@@ -203,7 +203,7 @@
      font-size: 1.5rem;
      font-style: normal;
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 900px){
     .team__wrapper{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
