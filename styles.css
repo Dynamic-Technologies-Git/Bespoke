@@ -198,7 +198,6 @@
 .team__Text{
     grid-row: 2/3;
     grid-column: 2/3;
-    margin-right: 5rem;
 }
 .team__Text p{
      bottom: 1.5rem;
