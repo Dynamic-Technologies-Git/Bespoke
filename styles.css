@@ -219,8 +219,8 @@
         position: relative;
     }
     .team__img{
-        width: 50vw;
-        height: calc(100vw * 1.2);
+        width: 60vw;
+        height: calc(width * 1.2);
         margin-left: 5rem;
     }
 }
