@@ -162,6 +162,9 @@
     align-items: center;
     }
 }
+.team{
+    padding: 8rem calc((100vw - 1100px)/2);
+}
 /*About us section*/
 .team__wrapper{
     margin-bottom: 2rem;
