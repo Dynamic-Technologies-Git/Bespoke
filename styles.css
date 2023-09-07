@@ -220,9 +220,10 @@
         position: relative;
     }
     .team__img{
-        width: 60vw;
+        width: 80vw;
         height: calc(60vw * 1.1px);
-        margin-left: 5rem;
+        margin-left: 4rem;
+        object-fit: cover;
     }
 }
 /* Contact page */
