@@ -100,9 +100,11 @@
     padding: 8rem calc((100vw - 1800px)/2);
 }
 .services__Container{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1rem;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 .services__img{
     width: 90%;
@@ -127,11 +129,6 @@
 .services__feature{
     margin-bottom: 2rem;
     font-size: clamp(1rem, 4vw, 2rem);
-}
-@media screen and (max-width: 768px){
-    .services__Container{
-        grid-template-columns: 1fr;
-    }
 }
 /* about */
 .about h1{
