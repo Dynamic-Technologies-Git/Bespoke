@@ -16,6 +16,7 @@
     justify-content:center;
     align-items:center;
     padding:1rem;
+    text-align:center;
 }
 /* navbar section */
 .navbar{
@@ -107,6 +108,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    text-align:center;
 }
 .services__img{
     width: 90%;
