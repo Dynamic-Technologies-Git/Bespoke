@@ -184,7 +184,7 @@ html,body
 }
 .services__Heading h1{
     padding: 1rem calc((100vw - 1800px) / 2);
-    font-size: 68px;
+    font-size: 2.5rem;
     font-style: normal;
 }
 .services__features{
@@ -198,7 +198,7 @@ html,body
 .about h1{
     padding: 1rem calc((100vw - 1800px) / 2);
     margin-left: 1rem;
-    font-size: 72px;
+    font-size: 2.5rem;
     font-style: normal;
 }
 .about p{
@@ -247,7 +247,7 @@ html,body
 }
 .team__card h1{
     margin-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .team__card p{
     position: absolute;
