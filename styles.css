@@ -82,7 +82,7 @@ html,body
     color: var(--black);
 }
 .heading p{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
