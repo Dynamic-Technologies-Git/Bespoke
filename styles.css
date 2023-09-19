@@ -204,6 +204,21 @@
      font-size: 1.5rem;
      font-style: normal;
 }
+.experience__container{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.experience{
+    padding:1rem;
+}
+.experience h1{
+    font-size:1rem;
+    color:var(--black);
+}
 @media screen and (max-width: 900px){
     .team__wrapper{
         grid-template-columns: 1fr;
