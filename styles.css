@@ -219,10 +219,14 @@
     font-size:1rem;
     color:var(--black);
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 830px){
     .team__wrapper{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        position:relative;
     }
     .team__Text {
         display: none;
@@ -238,8 +242,6 @@
         width: 80vw;
         height: calc(60vw * 1.1px);
         object-fit: cover;
-        display: flex;
-        justify-content: center;
     }
 }
 /* Contact page */
