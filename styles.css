@@ -35,6 +35,11 @@ html,body
     overflow-x: hidden;
     overflow-y: scroll;
 }
+.logoimg{
+    height:50px;
+    width:50px;
+    margin-left:1rem;
+}
 /* navbar section */
 .open-menu, .close-menu{
     position: absolute;
