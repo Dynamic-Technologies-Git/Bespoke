@@ -19,6 +19,27 @@
             display: none;
         }
     </style>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+
+            for(var i = 0; i < reveals.length; i++){
+                
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
     <!-- Navbar -->
     <nav class="navbar">
         <a href="/Bespoke" class="navbar__logo"><img src="./images/DF3.png" alt="Bespoke" class="logoimg"/></a>
