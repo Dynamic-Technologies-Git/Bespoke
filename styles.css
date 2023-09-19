@@ -249,7 +249,7 @@
 .email{
     background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0, 0.3)),
     url('./images/PosyOwl.jpg') no-repeat center;
-    height: 100vh;
+    height: 120vh;
     background-position: center;
     background-size: cover;
     padding: 5rem calc((100vw - 1300px) / 2);
