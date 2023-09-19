@@ -9,7 +9,12 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
-
+.button__holder{
+    position:relative;
+    diplay:flex;
+    justify-content:center;
+    align-items:center;
+}
 /* navbar section */
 .navbar{
     background: var(--white);
