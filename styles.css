@@ -12,8 +12,10 @@
 .button__holder{
     position:relative;
     diplay:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding:1rem;
 }
 /* navbar section */
 .navbar{
