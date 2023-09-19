@@ -38,7 +38,7 @@ html,body
 /* navbar section */
 .open-menu, .close-menu{
     position: absolute;
-    color: var(--blue);
+    color: var(--gold);
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
@@ -116,7 +116,7 @@ html,body
         top: 0;
         right: -100%;
         z-index:100;
-        background-color: var(--black);
+        background-color: var(--white);
         transition: all 0.2s ease-in-out;
     }
     .navbar__link{
