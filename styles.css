@@ -236,6 +236,12 @@ html,body
     padding: 8rem calc((100vw - 1100px)/2);
 }
 /*About us section*/
+.centering{
+    display:felx;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
 .team__wrapper{
     margin-bottom: 2rem;
     display: grid;
