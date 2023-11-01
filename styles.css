@@ -170,9 +170,9 @@ html,body
     position:relative;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    justify-content:left;
+    align-items:left;
+    text-align:left;
 }
 .services__img{
     width: 90%;
@@ -289,9 +289,9 @@ html,body
     position: relative;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+    justify-content:left;
+    align-items:left;
+    text-align:left;
 }
 .experience{
     padding:1rem;
