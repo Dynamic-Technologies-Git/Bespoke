@@ -165,6 +165,7 @@ html,body
 /* Services section */
 .services{
     padding: 8rem calc((100vw - 1800px)/2);
+    margin-left: 1rem;
 }
 .services__Container{
     position:relative;
@@ -292,6 +293,7 @@ html,body
     justify-content:left;
     align-items:left;
     text-align:left;
+    margin-left: 1rem;
 }
 .experience{
     padding:1rem;
