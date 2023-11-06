@@ -332,15 +332,16 @@ html,body
 /* Contact page */
 .email{
     background: linear-gradient(to right, rgba(0,0,105, 0.5), rgba(0,0,0, 0.2)),
-    url('./images/PosyFinal.gif');
+    url('./images/PosyOwl.jpg');
     height: 100vh;
     width: 100vw;
     background-position: center;
     background-size: cover;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
+    padding: 0.5rem calc((100vw - 1800px) / 2);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+     color: var(--white);
 }
 .email__content{
     display: flex;
