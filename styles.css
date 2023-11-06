@@ -339,9 +339,9 @@ html,body
     background-size: cover;
     padding: 0.5rem calc((100vw - 1800px) / 2);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-     color: var(--white);
+    color: var(--white);
 }
 .email__content{
     display: flex;
