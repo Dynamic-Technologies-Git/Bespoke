@@ -280,6 +280,7 @@ html,body
     width: 550px;
     height: 600px;
     border-radius: 5px;
+    margin-right: 1rem;
 }
 .team__Text p{
     color: var(--black);
