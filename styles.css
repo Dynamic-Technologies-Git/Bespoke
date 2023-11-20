@@ -289,10 +289,13 @@ html,body
     grid-column: 2/3;
 }
 .team__Text p{
-     bottom: 0.5rem;
-     font-size: 1.5rem;
-     font-style: normal;
-    margin-left: 1rem;
+    position: absolute;
+    bottom: 30px;
+    color: var(--black);
+    left: 25px;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.4;
+    font-weight: normal;
 }
 .experience__container{
     position: relative;
