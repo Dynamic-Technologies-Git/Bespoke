@@ -281,7 +281,7 @@ html,body
     }
 }
 .team{
-    padding: 5rem calc((100vw - 1100px)/2);
+    padding: 1rem calc((100vw - 1100px)/2);
 }
 .centering h1{
     font-size: 2.5rem;
@@ -299,7 +299,7 @@ html,body
 }
 .team__wrapper{
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .team__card{
     margin: 1rem;
