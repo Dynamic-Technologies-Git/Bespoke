@@ -255,7 +255,6 @@ html,body
     align-items:center;
     flex-direction:column;
     text-align:center;
-    margin-right: 2rem;
 }
 .team__wrapper{
     display: flex;
@@ -303,6 +302,14 @@ html,body
         justify-content:center;
         align-items:center;
         flex-direction: column;
+    }
+    .centering{
+    display:felx;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    margin-right: 2rem;
     }
     .team__wrapper{
         display:flex;
