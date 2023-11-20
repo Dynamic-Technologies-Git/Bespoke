@@ -240,7 +240,10 @@ html,body
     }
     .services{
     padding: 8rem calc((100vw - 1800px)/2);
-    margin-left: 1rem;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
     }
     .services__Container{
     position:relative;
