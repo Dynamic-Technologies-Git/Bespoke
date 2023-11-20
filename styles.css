@@ -320,6 +320,7 @@ html,body
         margin: 0rem;
         border-radius: 0px;
         position: relative;
+        margin-right: 0rem;
     }
     .team__img{
         width: 80vw;
