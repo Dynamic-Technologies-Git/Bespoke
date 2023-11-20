@@ -165,7 +165,7 @@ html,body
 /* Services section */
 .services{
     padding: 8rem calc((100vw - 1800px)/2);
-    margin-left: 2.5rem;
+    margin-left: 1rem;
 }
 .services__Container{
     position:relative;
@@ -197,6 +197,7 @@ html,body
 }
 .services__features{
     list-style: none;
+    margin-left: 2rem;
 }
 .services__feature{
     margin-bottom: 2rem;
