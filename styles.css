@@ -274,7 +274,7 @@ html,body
 }
 .team__Text p{
     color: var(--black);
-    font-size: clamp(0.5rem, 4vw, 1.5rem);
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
     font-weight: normal;
 }
 .experience__container{
@@ -297,7 +297,10 @@ html,body
 }
 @media screen and (max-width: 780px){
     .team{
-    padding: 0rem;
+        padding: 0rem 1rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
     }
     .team__wrapper{
         display:flex;
