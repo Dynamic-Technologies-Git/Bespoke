@@ -304,7 +304,7 @@ html,body
     text-decoration: none;
     text-transform: uppercase;
 }
-@media screen and (max-width: 820px){
+@media screen and (max-width: 780px){
     .team__wrapper{
         display:flex;
         justify-content:center;
