@@ -273,7 +273,7 @@ html,body
 }
 .team__Text p{
     color: var(--black);
-    font-size: clamp(0.5rem, 7vw, 2rem);
+    font-size: clamp(0.5rem, 6vw, 1rem);
     font-weight: normal;
 }
 .experience__container{
