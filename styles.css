@@ -213,7 +213,8 @@ html,body
     text-transform: uppercase;
 }
 .about p{
-    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-size: clamp(1rem, 6vw, 2rem);
     padding: 1rem;
 }
 .Logo__img{
@@ -274,7 +275,7 @@ html,body
 }
 .team__Text p{
     color: var(--black);
-    font-size: clamp(0.5rem, 50vw, 1rem);
+    font-size: clamp(0.5rem, 80vw, 1.5rem);
     font-weight: normal;
     bottom: 0.5rem;
 }
