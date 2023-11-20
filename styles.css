@@ -255,6 +255,7 @@ html,body
     align-items:center;
     flex-direction:column;
     text-align:center;
+    padding: 1rem calc((100vw - 1800px) / 2);
 }
 .team__wrapper{
     display: flex;
@@ -297,7 +298,6 @@ html,body
 }
 @media screen and (max-width: 780px){
     .team{
-        padding: 0rem 1rem;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -310,6 +310,7 @@ html,body
     flex-direction:column;
     text-align:center;
     margin-right: 1rem;
+    padding: 1rem calc((100vw - 1800px) / 2);
     }
     .team__wrapper{
         display:flex;
