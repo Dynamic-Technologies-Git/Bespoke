@@ -255,6 +255,7 @@ html,body
     align-items:center;
     flex-direction:column;
     text-align:center;
+    margin-right: 2rem;
 }
 .team__wrapper{
     display: flex;
