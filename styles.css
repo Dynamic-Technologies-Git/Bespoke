@@ -240,7 +240,7 @@ html,body
     }
 }
 .team{
-    padding: 8rem calc((100vw - 1100px)/2);
+    padding: 5rem calc((100vw - 1100px)/2);
 }
 .centering h1{
     font-size: 2.5rem;
@@ -290,12 +290,8 @@ html,body
     grid-column: 2/3;
 }
 .team__Text p{
-    position: absolute;
-    bottom: 30px;
     color: var(--black);
-    left: 25px;
     font-size: clamp(1rem, 2vw, 1.5rem);
-    line-height: 1.4;
     font-weight: normal;
 }
 .experience__container{
