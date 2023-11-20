@@ -239,7 +239,7 @@ html,body
     align-items: center;
     }
     .services{
-    padding: 8rem calc((100vw - 1800px)/2);
+        padding:0rem;
         display:flex;
         flex-direction: column;
         justify-content:center;
