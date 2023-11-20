@@ -259,6 +259,8 @@ html,body
 .team__wrapper{
     margin-bottom: 2rem;
     display: felx;
+    flex-direction:row;
+    gap: 0.5rem;
 }
 .team__card{
     margin: 1rem;
