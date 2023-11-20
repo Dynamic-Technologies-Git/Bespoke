@@ -238,6 +238,44 @@ html,body
     justify-content: flex-start;
     align-items: center;
     }
+    .services{
+    padding: 8rem calc((100vw - 1800px)/2);
+    margin-left: 1rem;
+    }
+    .services__Container{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    }
+    .services__img{
+    width: 90%;
+    height: 90%;
+    padding: 1rem 1rem;
+    }
+    .topline{
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    }
+    .services__Heading h1{
+    padding: 1rem calc((100vw - 1800px) / 2);
+    font-size: 2.5rem;
+    font-style: normal;
+    color: var(--gold);
+    text-transform: uppercase;
+    }
+    .services__features{
+    list-style: none;
+    }
+    .services__feature{
+    margin-bottom: 2rem;
+    font-size: clamp(1rem, 4vw, 2rem);
+    }
 }
 .team{
     padding: 5rem calc((100vw - 1100px)/2);
