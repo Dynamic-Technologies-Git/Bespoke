@@ -212,6 +212,9 @@ html,body
     color: var(--gold);
     text-transform: uppercase;
 }
+.about p{
+    font-size: 1rem;
+}
 .Logo__img{
     background: url('./images/');
     background-position: center;
