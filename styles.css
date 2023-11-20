@@ -277,7 +277,6 @@ html,body
     color: var(--black);
     font-size: clamp(0.5rem, 1.3vw, 1.2rem);
     font-weight: normal;
-    bottom: 99;
 }
 .experience__container{
     position: relative;
