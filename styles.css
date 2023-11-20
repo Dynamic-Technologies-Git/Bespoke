@@ -308,7 +308,7 @@ html,body
     border-radius: 5px;
 }
 .team__Text{
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .team__Text p{
     color: var(--black);
