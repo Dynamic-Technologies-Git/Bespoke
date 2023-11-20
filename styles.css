@@ -259,6 +259,9 @@ html,body
 .team__wrapper{
     margin-bottom: 2rem;
     display: felx;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 .team__card{
     margin: 1rem;
@@ -321,8 +324,8 @@ html,body
         position: relative;
     }
     .team__img{
-        width: 50vw;
-        height: calc(30vw * 1.1px);
+        width: 80vw;
+        height: calc(60vw * 1.1px);
         object-fit: cover;
     }
 }
