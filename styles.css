@@ -274,7 +274,7 @@ html,body
     margin-top: 1rem;
 }
 .team__Text p{
-     margin-top: 5rem;
+     margin-top: 10rem;
     color: var(--black);
     font-size: clamp(0.5rem, 1.3vw, 1.3rem);
     font-weight: normal;
