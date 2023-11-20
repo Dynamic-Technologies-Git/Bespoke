@@ -271,11 +271,11 @@ html,body
     border-radius: 5px;
 }
 .team__Text{
-    margin-top: 1rem;
+    margin-top: 6rem;
 }
 .team__Text p{
     color: var(--black);
-    font-size: clamp(0.5rem, 1.3vw, 1.2rem);
+    font-size: clamp(0.5rem, 1.3vw, 1.3rem);
     font-weight: normal;
 }
 .experience__container{
