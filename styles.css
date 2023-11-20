@@ -257,7 +257,8 @@ html,body
     text-align:center;
 }
 .team__wrapper{
-    display:flex;
+    display: flex;
+    gap: 0.5rem;
 }
 .team__card{
     margin: 1rem;
@@ -267,6 +268,9 @@ html,body
     width: 40vw;
     height: calc(30vw * 1.1px);
     border-radius: 5px;
+}
+.team__Text{
+    margin-top: 3rem;
 }
 .team__Text p{
     color: var(--black);
