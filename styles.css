@@ -257,20 +257,15 @@ html,body
     text-align:center;
 }
 .team__wrapper{
-    position: relative;
-    margin-bottom: 2rem;
-    display: felx;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+    display:flex;
 }
 .team__card{
     margin: 1rem;
     border-radius: 10px;
 }
 .team__img{
-    width: 30vw;
-    height: calc(20vw * 1.1px);
+    width: 40vw;
+    height: calc(30vw * 1.1px);
     border-radius: 5px;
 }
 .team__Text p{
