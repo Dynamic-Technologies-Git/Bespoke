@@ -165,7 +165,7 @@ html,body
 /* Services section */
 .services{
     padding: 8rem calc((100vw - 1800px)/2);
-    margin-left: 1rem;
+    margin-left: 2.5rem;
 }
 .services__Container{
     position:relative;
@@ -276,7 +276,7 @@ html,body
     position: absolute;
     bottom: 30px;
     color: var(--white);
-    left: 25px;
+    left: 20px;
     font-size: 3rem;
 }
 .team__img{
@@ -289,9 +289,10 @@ html,body
     grid-column: 2/3;
 }
 .team__Text p{
-     bottom: 1.5rem;
+     bottom: 0.5rem;
      font-size: 1.5rem;
      font-style: normal;
+    margin-left: 1rem;
 }
 .experience__container{
     position: relative;
