@@ -345,6 +345,7 @@ html,body
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--white);
     scroll-snap-align: start;
 }
 .email__content{
