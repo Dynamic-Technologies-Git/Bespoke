@@ -17,7 +17,7 @@
     align-items:center;
     padding:1rem;
     text-align:center;
-    margin-left: 70px;
+    margin-left: 270px;
 }
 @keyframes Slide{
     from {
@@ -124,6 +124,16 @@ html,body
         z-index:100;
         background-color: var(--white);
         transition: all 0.2s ease-in-out;
+    }
+    .button__holder{
+    position:relative;
+    diplay:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:1rem;
+    text-align:center;
+    margin-left: 70px;
     }
     .navbar__link{
         padding:10px;
