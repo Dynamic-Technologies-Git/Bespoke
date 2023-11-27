@@ -41,8 +41,13 @@
             }
         }
     </script>
-    <audio controls autoplay hidden src="Who.mp3">
+    <audio controls id="autoplay" hidden src="Who.mp3">
     </audio>
+    <script>
+        window.onload = function(){
+            document.getElementById("autoplay").play();
+        }
+    </script>
     <!-- Navbar -->
     <nav class="navbar">
         <a href="/Bespoke" class="navbar__logo"><img src="./images/Owl.gif" alt="Bespoke" class="logoimg"/></a>
