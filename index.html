@@ -15,6 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div onload="play()"></div>
     <style>
         ::-webkit-scrollbar{
             display: none;
@@ -43,9 +44,7 @@
     </script>
     <!-- Navbar -->
     <nav class="navbar">
-        <a href="/Bespoke" class="navbar__logo"><img src="./images/Owl.gif" alt="Bespoke" type="submit" onclick="play()" class="logoimg"/></a>
-         <audio id="who" src="Who.mp3">
-            </audio>
+        <a href="/Bespoke" class="navbar__logo"><img src="./images/Owl.gif" alt="Bespoke" class="logoimg"/></a>
         <input type="checkbox" id="check">
         <div class="navbar__menu">
             <a href="/Bespoke" class="navbar__link">Home</a>
@@ -61,9 +60,7 @@
         <div class="hero__content">
             <h1>Bespoke</h1>
             <p>Executive English</p>
-            <a href="/Bespoke/Contacts.html" class="button" type="submit" onclick="play()">Book Now</a>
-             <audio id="who" src="Who.mp3">
-            </audio>
+            <a href="/Bespoke/Contacts.html" class="button">Book Now</a>
         </div>
     </div><!--Services Section-->
     <div class="services reveal">
@@ -78,7 +75,7 @@
                     <p class="services__feature"><i class="fas fa-check-circle"></i> Executive English</p>
                     <p class="services__feature"><i class="fas fa-check-circle"></i> Effective Communication Skills</p>
                     <div class="button-gif__holder">
-                    <a href="/Bespoke/Contacts.html" class="button" type="submit" onclick="play()">Sign Up</a>
+                    <a href="/Bespoke/Contacts.html" class="button">Sign Up</a>
                     <audio id="who" src="Who.mp3">
                     </audio>
                     <img src="./images/Owl.gif" alt=" " class="button-gif"/>
