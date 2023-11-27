@@ -167,6 +167,14 @@ html,body
     padding: 8rem calc((100vw - 1800px)/2);
     margin-left: 1rem;
 }
+.button-gif__holder{
+    display:flex;
+}
+.button-gif{
+    width:200px;
+    height:200px;
+    margin-left: -0.5px;
+}
 .services__Container{
     position:relative;
     display:flex;
