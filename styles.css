@@ -17,6 +17,7 @@
     align-items:center;
     padding:1rem;
     text-align:center;
+    margin-left: 70px;
 }
 @keyframes Slide{
     from {
