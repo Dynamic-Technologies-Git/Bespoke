@@ -135,12 +135,6 @@
                     <button class="button" onclick="play()" type="submit">Send</button>
                     <audio id="who" src="Who.mp3">
                     </audio>
-                    <script>
-                        function play(){
-                            var sound=document.getElementById("who");
-                            sound.play();
-                        }
-                    </script>
                </form>
             </div>
         </div>
@@ -174,6 +168,12 @@
         </div>
     </div>
     <script src="app.js"></script>
+    <script>
+                        function play(){
+                            var sound=document.getElementById("who");
+                            sound.play();
+                        }
+                    </script>
 </body>
 <head>
 </head>
