@@ -41,6 +41,12 @@
             }
         }
     </script>
+                        <script>
+                        function play(){
+                            var sound=document.getElementById("who");
+                            sound.play();
+                        }
+                    </script>
     <!-- Navbar -->
     <nav class="navbar">
         <a href="/Bespoke" class="navbar__logo"><img src="./images/Owl.gif" alt="Bespoke" onclick="play()" class="logoimg"/></a>
@@ -69,12 +75,6 @@
                     <button class="button" onclick="play()" type="submit">Send</button>
                     <audio id="who" src="Who.mp3">
                     </audio>
-                    <script>
-                        function play(){
-                            var sound=document.getElementById("who");
-                            sound.play();
-                        }
-                    </script>
                </form>
             </div>
         </div>
