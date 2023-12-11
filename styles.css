@@ -161,7 +161,7 @@ html,body
 }
 .hero__content{
     color: var(--white);
-    padding: 3rem 1rem;
+    padding: 2rem 0.5rem;
     line-height: 1;
 }
 .hero__content h1{
