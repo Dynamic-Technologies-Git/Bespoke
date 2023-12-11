@@ -271,11 +271,9 @@ html,body
 /*About us section*/
 .centering{
     display:felx;
-    justify-content:center;
-    align-items:center;
+    justify-content:left;
+    align-items:left;
     flex-direction:column;
-    text-align:center;
-    padding: 1rem calc((100vw - 1800px) / 2);
 }
 .team__wrapper{
     display: flex;
