@@ -294,10 +294,17 @@ html,body
     margin-top: 1rem;
 }
 .team__Text p{
-     margin-top: 10rem;
+    margin-top: 10rem;
     color: var(--black);
     font-size: clamp(0.9rem, 1.3vw, 1.3rem);
     font-weight: normal;
+}
+.team__Text b{
+    text-transform: uppercase;
+    margin-top: 10rem;
+    color: var(--black);
+    font-size: clamp(0.9rem, 1.3vw, 1.3rem);
+    font-weight: bold;
 }
 .experience__container{
     position: relative;
