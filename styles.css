@@ -317,12 +317,10 @@ html,body
 }
 .experience{
     padding:1rem;
-}
-.experience h1{
-    font-size:clamp(0.9rem, 1.3vw, 1.3rem);
-    color:var(--black);
+    color: var(--black);
+    font-size: clamp(0.9rem, 1.3vw, 1.3rem);
+    font-weight: normal;
     text-decoration: none;
-    text-transform: uppercase;
 }
 .experience b{
     display:flex;
