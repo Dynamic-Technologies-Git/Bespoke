@@ -439,7 +439,7 @@ span{
 /* footer section*/
 .Dtech__tag{
     width: 50%;
-    height: 50%;
+    height: 70%;
 }
 .footer{
     padding: 5rem calc((100vw - 1100px) / 2);
@@ -494,6 +494,10 @@ span{
         align-items:center;
         flex-direction: column;
         text-align: center;
+    }
+    .Dtech__tag{
+    width: 50%;
+    height: 50%;
     }
     .footer{
         position:relative;
