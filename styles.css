@@ -260,7 +260,7 @@ html,body
     }
 }
 .team{
-    padding: 1rem calc((100vw - 1200px)/2);
+    padding: 1rem calc((90vw - 1200px)/2);
 }
 .centering h1{
     font-size: 2.5rem;
