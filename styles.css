@@ -170,7 +170,7 @@ html,body
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
     margin-bottom: 0.5rem; 
-    transition: 0.4s ease;
+    transition: 0.3s ease;
 }
 .hero__content h1:hover{
     font-size: clamp(3.3rem, 8vw, 7.3rem);
@@ -292,11 +292,12 @@ html,body
     width: 40vw;
     height: calc(30vw * 1.1px);
     border-radius: 4px;
+    transition: 0.3s ease;
 }
 .team__img:hover{
-    width: 43vw;
-    height: calc(33vw * 1.1px);
-    border-radius: 7px;
+    width: 40vw;
+    height: calc(30vw * 1.1px);
+    border-radius: 10px;
 }
 .team__Text{
     margin-top: 1rem;
