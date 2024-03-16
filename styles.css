@@ -291,7 +291,12 @@ html,body
 .team__img{
     width: 40vw;
     height: calc(30vw * 1.1px);
-    border-radius: 5px;
+    border-radius: 4px;
+}
+.team__img:hover{
+    width: 43vw;
+    height: calc(33vw * 1.1px);
+    border-radius: 7px;
 }
 .team__Text{
     margin-top: 1rem;
