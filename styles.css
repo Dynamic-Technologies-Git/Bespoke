@@ -295,9 +295,9 @@ html,body
     transition: 0.3s ease;
 }
 .team__img:hover{
-    width: 40vw;
-    height: calc(30vw * 1.1px);
-    border-radius: 10px;
+    width: 42vw;
+    height: calc(32vw * 1.1px);
+    border-radius: 15px;
 }
 .team__Text{
     margin-top: 1rem;
