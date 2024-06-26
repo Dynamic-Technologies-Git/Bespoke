@@ -236,6 +236,7 @@ html,body
     height: 40vw;
     padding: 1rem 1rem;
     display:block;
+    border-radius: 4px;
 }
 .topline{
     color: var(--gold);
@@ -324,11 +325,6 @@ html,body
     height: calc(30vw * 1.1px);
     border-radius: 4px;
     transition: 0.3s ease;
-}
-.team__img:hover{
-    width: 42vw;
-    height: calc(32vw * 1.1px);
-    border-radius: 15px;
 }
 .team__Text{
     margin-top: 1rem;
