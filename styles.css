@@ -213,6 +213,7 @@ html,body
     display:flex;
     justify-content:center;
     align-items:center;
+    width: 100vw;
 }
 .button-gif__holder{
     display:flex;
@@ -254,10 +255,10 @@ html,body
 }
 .services__features{
     list-style: none;
-    margin-left: 2rem;
+    padding: 1rem calc((100vw - 1800px) / 2);
 }
 .services__feature{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: clamp(1rem, 4vw, 2rem);
 }
 /* about */
